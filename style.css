@@ -19,6 +19,8 @@ body {
   padding: 0 calc(2rem + 1vw);
 }
 
+
+
 /* NavBar related Styles */
 nav {
   display: flex;
@@ -73,11 +75,16 @@ nav li {
 .skewed-white-bg {
   background: #ffffff;
   padding: 5px 51px 5px 11px;
+  display: inline-block;
+  transform: rotate(-2.5deg);
+  
 }
 
 .skewed-orange-bg {
   background: #e6c744;
   padding: 5px 51px 5px 11px;
+  display: inline-block;
+  transform: rotate(-2.5deg);
 }
 
 .hero-left-part,
