@@ -9,17 +9,11 @@ body {
   padding-top: 1.5rem;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 /* Default Stylings for all elements */
 
 .container {
   padding: 0 calc(2rem + 1vw);
 }
-
-
 
 /* NavBar related Styles */
 nav {
@@ -56,19 +50,15 @@ nav li {
   font-size: 22px;
 }
 
-.shop-now-btn-wrapper {
-  margin: 44px 0;
-}
-
 /* Hero related stylings */
 
 .hero-wrapper {
   background: #f4f6f5;
   border-radius: 59px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-evenly;
-  padding: 1rem 2rem;
+  padding: 3rem 2rem 0 6rem;
   margin-top: 46px;
 }
 
@@ -77,7 +67,6 @@ nav li {
   padding: 5px 51px 5px 11px;
   display: inline-block;
   transform: rotate(-2.5deg);
-  
 }
 
 .skewed-orange-bg {
@@ -87,9 +76,12 @@ nav li {
   transform: rotate(-2.5deg);
 }
 
-.hero-left-part,
 .hero-right-part {
   width: 100%;
+}
+
+.hero-left-part {
+  width: 70%;
 }
 
 .hero-heading-text {
@@ -150,8 +142,8 @@ ul.splide__pagination {
 
 .new-arrivals-vector-img {
   position: absolute;
-  top: 33%;
-  left: 2%;
+  top: 23px;
+  left: 170px;
   z-index: 1;
 }
 
@@ -243,9 +235,13 @@ ul.splide__pagination {
 /* Young's Favorite Styling */
 
 .youngs-favorite {
-  position: relative; /* This is key to making z-index work */
+  position: relative;
   margin-bottom: 5rem;
   margin-top: 7rem;
+}
+
+.youngs-favorite-section {
+  margin-bottom: 60px;
 }
 
 .youngs-favorite-section-title {
@@ -258,20 +254,93 @@ ul.splide__pagination {
 
 .youngs-favorite-vector-img {
   position: absolute;
-  top: 33%;
-  left: 5%;
+  top: 28px;
+  left: 313px;
   z-index: 1;
+}
+
+.youngs-favorite-details-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.youngs-favorite-product-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.youngs-favorite-image-wrapper img {
+  width: 100%;
+}
+
+.youngs-favorite-details h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.youngs-favorite-details p {
+  margin: 0;
+  padding: 0;
+  color: #7f7f7f;
+  font-size: 21px;
+}
+
+/* Download Apps Section Stylings */
+
+.download-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.download-app-heading-text {
+  font-size: 48px;
+}
+
+.download-app-text {
+  font-size: 24px;
+  color: #7c7c7c;
+  margin-bottom: 75px;
+}
+
+.mobile-app-img {
+  width: 100%;
 }
 
 /* Desktop stylings */
 
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+  /* Hero Stylings */
+  .hero-heading-text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1201px) {
+  /* Hero Stylings */
+  .hero-heading-text {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1501px) and (min-width: 1700px) {
+  /* Hero Stylings */
+  .hero-heading-text {
+    font-size: 63px;
+  }
+}
+
 @media screen and (max-width: 1285px) {
   /* navbar stylings */
-  nav a{
+  nav a {
     font-size: 16px;
   }
 
-  .sign-up-btn{
+  .sign-up-btn {
     font-size: 16px;
   }
 }
@@ -288,12 +357,17 @@ ul.splide__pagination {
 
   .hero-girl-img {
     height: auto;
-    position: absolute;
-    bottom: -15px;
+    width: 100%;
+    aspect-ratio: 1;
   }
   .hero-text {
     font-size: 28px;
     width: 90%;
+  }
+
+  .shop-now-btn-wrapper {
+    margin: 0;
+    padding-bottom: 5rem;
   }
 }
 
@@ -301,7 +375,7 @@ ul.splide__pagination {
 
 @media screen and (max-width: 720px) {
   .container {
-    padding: 0 2rem;
+    padding: 0 0.75rem;
   }
 
   /* Navbar Mobile Stylings */
@@ -334,9 +408,10 @@ ul.splide__pagination {
 
   .hero-wrapper {
     flex-direction: column;
-    padding: 15px 0;
+    padding: 0.5rem 12px;
     justify-content: center;
-    border-radius: 20px;
+    align-items: center;
+    border-radius: 15px;
   }
 
   .hero-heading-text {
@@ -353,8 +428,14 @@ ul.splide__pagination {
     text-align: center;
   }
 
+  .shop-now-btn {
+    padding: 10px 18px;
+    font-size: 20px;
+  }
+
   .hero-right-part {
-    margin: 28px 0;
+    margin: 0;
+    display: flex;
   }
 
   .hero-girl-img {
@@ -363,13 +444,18 @@ ul.splide__pagination {
   .hero-right-part {
     position: relative;
     aspect-ratio: 1;
+    order: 1;
+  }
+
+  .hero-left-part {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    order: 2;
   }
 
   .hero-girl-img {
     width: 100%;
     height: auto;
-    position: absolute;
-    bottom: -39px;
   }
 
   /* New Arrivals Stylings */
@@ -378,6 +464,17 @@ ul.splide__pagination {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+
+  .new-arrivals-section-title {
+    font-size: 23px;
+  }
+
+  .new-arrivals-vector-img {
+    position: absolute;
+    top: 9px;
+    left: 28px;
+    z-index: 1;
   }
 
   /* Sale Now Stylings */
@@ -392,6 +489,51 @@ ul.splide__pagination {
   .sale-now .right-part-wrapper {
     padding: 0 1rem;
   }
+
+  /* Youngs Favorite Styling */
+
+  .youngs-favorite-product-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .youngs-favorite-section-title {
+    font-size: 23px;
+  }
+
+  .youngs-favorite-vector-img {
+    top: 4px;
+    left: 50px;
+  }
+
+  /* Download App Sections */
+  .download-app {
+    flex-direction: column;
+  }
+
+  .download-app-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .download-app-buttons img {
+    width: 50%;
+  }
+
+  .download-app-heading-text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .download-app-text {
+    font-size: 16px;
+    color: #7c7c7c;
+    text-align: center;
+    margin-bottom: 36px;
+}
 }
 
 /* end */
