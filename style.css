@@ -65,26 +65,28 @@ nav li {
 
 .skewed-white-bg {
   background: #ffffff;
-  padding: 5px 115px 5px 25px;
+  padding: 0 115px 0 25px;
   display: inline-block;
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
+  
 }
 
 .skewed-white-bg-text {
   display: inline-block;
-  transform: rotate(2deg);
+  transform: rotate(3deg);
 }
 
 .skewed-orange-bg {
   background: #e6c744;
-  padding: 5px 95px 5px 25px;
+  padding: 0 95px 0 25px;
   display: inline-block;
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
+  
 }
 
 .skewed-orange-bg-text {
   display: inline-block;
-  transform: rotate(2deg);
+  transform: rotate(3deg);
 }
 
 .hero-right-part {
@@ -340,11 +342,11 @@ ul.splide__pagination {
 
 @media screen and (max-width: 950px) and (min-width: 768px) {
   .hero-heading-text {
-    font-size: 25px;
+    font-size: 50px;
   }
 
   .hero-text {
-    font-size: 12px;
+    font-size: 24px;
     margin-bottom: 36px;
   }
 
@@ -354,17 +356,17 @@ ul.splide__pagination {
 
   .shop-now-btn {
     padding: 11px 17px;
-    font-size: 13px;
+    font-size: 19px;
   }
 }
 
 @media screen and (max-width: 1300px) and (min-width: 951px) {
   .hero-heading-text {
-    font-size: 33px;
+    font-size: 65px;
   }
 
   .hero-text {
-    font-size: 21px;
+    font-size: 30px;
     margin-bottom: 36px;
   }
 
@@ -374,17 +376,17 @@ ul.splide__pagination {
 
   .shop-now-btn {
     padding: 11px 17px;
-    font-size: 17px;
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1301px) {
   .hero-heading-text {
-    font-size: 55px;
+    font-size: 75px;
   }
 
   .hero-text {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 60px;
   }
 
@@ -394,17 +396,17 @@ ul.splide__pagination {
 
   .shop-now-btn {
     padding: 20px 36px;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 1600px) and (min-width: 1501px) {
   .hero-heading-text {
-    font-size: 69px;
+    font-size: 85px;
   }
 
   .hero-text {
-    font-size: 18px;
+    font-size: 50px;
     margin-bottom: 60px;
   }
 
@@ -414,7 +416,7 @@ ul.splide__pagination {
 
   .shop-now-btn {
     padding: 25px 40px;
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
