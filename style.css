@@ -65,10 +65,15 @@ nav li {
 
 .skewed-white-bg {
   background: #ffffff;
-  padding: 0 146px 0 25px;
+  padding: 0 165px 0 25px;
   display: inline-block;
   transform: rotate(-3deg);
   
+}
+
+.hero-girl-img{
+  position: relative;
+  top: 5px;
 }
 
 .skewed-white-bg-text {
@@ -77,8 +82,8 @@ nav li {
 }
 
 .skewed-orange-bg {
-  background: #e6c744;
-  padding: 0 95px 0 25px;
+  background: #EBD96B;
+  padding: 0 125px 0 25px;
   display: inline-block;
   transform: rotate(-3deg);
   
