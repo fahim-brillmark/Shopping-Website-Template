@@ -329,6 +329,42 @@ ul.splide__pagination {
 
 /* Desktop stylings */
 
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+/* Navbar links Stylings */
+
+nav a {
+  font-size: 11px;
+}
+.sign-up-btn{
+  font-size: 11px;
+  padding: 8px 13px;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+/* Navbar links Stylings */
+
+nav a {
+  font-size: 14px;
+}
+.sign-up-btn{
+  font-size: 14px;
+  padding: 10px 14px;
+}
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1201px) {
+/* Navbar links Stylings */
+
+nav a {
+  font-size: 18px;
+}
+.sign-up-btn{
+  font-size: 18px;
+  padding: 13px 17px;
+}
+}
+
 @media screen and (max-width: 1200px) and (min-width: 1100px) {
   /* Hero Stylings */
   .hero-heading-text {
@@ -350,16 +386,7 @@ ul.splide__pagination {
   }
 }
 
-@media screen and (max-width: 1285px) {
-  /* navbar stylings */
-  nav a {
-    font-size: 16px;
-  }
 
-  .sign-up-btn {
-    font-size: 16px;
-  }
-}
 
 @media screen and (min-width: 720px) {
   .logo-wrapper {
@@ -389,70 +416,7 @@ ul.splide__pagination {
 
 /* Mobile Stylings */
 
-@media screen and (max-width: 914px) {
-  .logo-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .logo-wrapper img {
-    width: 50%;
-  }
-
-  /* Navbar Mobile Stylings */
-  nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  nav ul {
-    max-height: 0; 
-    opacity: 0; 
-    overflow: hidden; 
-    flex-direction: column;
-    position: relative;
-    background-color: #e6c744;
-    width: 100%;
-    padding: 0; 
-    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease; 
-  }
-
-  nav a {
-    color: black;
-  }
-
-  nav ul.active {
-    max-height: 400px; 
-    opacity: 1; 
-    width: 100vw;
-    padding: 1.5rem 0;
-  }
-
-  .hamburger-menu {
-    display: block;
-    cursor: pointer;
-  }
-
-  .hamburger-menu i {
-    font-size: 24px;
-    color: #000;
-  }
-  nav li {
-    margin-bottom: 16px;
-  }
-
-  .sign-up-btn {
-    background: #000000;
-    color: #fefefe;
-    border-radius: 7px;
-    padding: 7px 7px;
-  }
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 767px) {
   .container {
     padding: 0 0.75rem;
   }
@@ -517,6 +481,71 @@ ul.splide__pagination {
 
   .skewed-white-bg {
     display: none;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo-wrapper img {
+    width: 50%;
+  }
+
+  /* Navbar Mobile Stylings */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    background-color: #e6c744;
+    width: 100%;
+    padding: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  }
+
+  nav a {
+    color: black;
+    font-size: 18px;
+  }
+
+  nav ul.active {
+    max-height: 400px;
+    opacity: 1;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger-menu i {
+    font-size: 24px;
+    color: #000;
+  }
+  nav li {
+    margin-bottom: 16px;
+  }
+
+  .sign-up-btn {
+    background: #000000;
+    display: inline-block;
+    color: #fefefe;
+    border-radius: 7px;
+    padding: 10px 10px;
+    margin-top: 4px;
+    font-size: 18px;
   }
 
   /* New Arrivals Stylings */
