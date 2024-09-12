@@ -389,11 +389,7 @@ ul.splide__pagination {
 
 /* Mobile Stylings */
 
-@media screen and (max-width: 720px) {
-  .container {
-    padding: 0 0.75rem;
-  }
-
+@media screen and (max-width: 914px) {
   .logo-wrapper {
     display: flex;
     align-items: center;
@@ -413,12 +409,15 @@ ul.splide__pagination {
   }
 
   nav ul {
-    display: none;
+    max-height: 0; 
+    opacity: 0; 
+    overflow: hidden; 
     flex-direction: column;
     position: relative;
-    background-color:#E6C744;
+    background-color: #e6c744;
     width: 100%;
-    padding: 20px;
+    padding: 0; 
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease; 
   }
 
   nav a {
@@ -426,7 +425,10 @@ ul.splide__pagination {
   }
 
   nav ul.active {
-    display: flex;
+    max-height: 400px; 
+    opacity: 1; 
+    width: 100vw;
+    padding: 1.5rem 0;
   }
 
   .hamburger-menu {
@@ -447,6 +449,12 @@ ul.splide__pagination {
     color: #fefefe;
     border-radius: 7px;
     padding: 7px 7px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 0 0.75rem;
   }
 
   /* Hero Mobile Stylings */
@@ -501,6 +509,14 @@ ul.splide__pagination {
   .hero-girl-img {
     width: 100%;
     height: auto;
+  }
+
+  .skewed-orange-bg {
+    display: none;
+  }
+
+  .skewed-white-bg {
+    display: none;
   }
 
   /* New Arrivals Stylings */
