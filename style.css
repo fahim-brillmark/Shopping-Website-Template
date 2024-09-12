@@ -489,6 +489,18 @@ ul.splide__pagination {
   }
 }
 
+@media screen and (max-width: 400px) and (min-width: 300px) {
+
+  .skewed-white-bg{
+    padding: 0 78px 0 25px;
+  }
+
+    .skewed-orange-bg{
+    padding: 0 75px 0 25px;
+  }
+
+}
+
 /* Mobile Stylings */
 
 @media screen and (max-width: 767px) {
