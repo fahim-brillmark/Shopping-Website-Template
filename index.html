@@ -20,10 +20,19 @@
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="container">
+    <!-- <nav class="container">
       <div class="logo-wrapper">
         <img src="images/Frame 57.png" alt="Logo of an image" />
       </div>
@@ -37,6 +46,25 @@
         <li><a href="#"> LIFESTYLE </a></li>
 
         <li><a href="#" class="sign-up-btn"> SIGN UP </a></li>
+      </ul>
+    </nav> -->
+
+    <nav class="container">
+      <div class="logo-wrapper">
+        <img src="images/Frame 57.png" alt="Logo of an image" />
+
+        <!-- Hamburger Menu -->
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <ul class="nav-menu">
+        <li><a href="#">CATALOGUE</a></li>
+        <li><a href="#">FASHION</a></li>
+        <li><a href="#">FAVOURITE</a></li>
+        <li><a href="#">LIFESTYLE</a></li>
+        <li><a href="#" class="sign-up-btn">SIGN UP</a></li>
       </ul>
     </nav>
 
@@ -222,43 +250,37 @@
       />
 
       <div class="youngs-favorite-product-wrapper">
-          <div class="youngs-favorite-product">
-            <div class="youngs-favorite-image-wrapper">
-              <img
-                src="images/youngs-favorite-img-1.png"
-                alt="Image of a girl"
-              />
-            </div>
-
-            <div class="youngs-favorite-details-wrapper">
-              <div class="youngs-favorite-details">
-                <h4>Hoodies & Sweetshirt</h4>
-                <p>Explore Now!</p>
-              </div>
-              <div class="arrow">
-                <img src="images/Arrow 1.png" alt="An arrow" />
-              </div>
-            </div>
+        <div class="youngs-favorite-product">
+          <div class="youngs-favorite-image-wrapper">
+            <img src="images/youngs-favorite-img-1.png" alt="Image of a girl" />
           </div>
 
-          <div class="youngs-favorite-product">
-            <div class="youngs-favorite-image-wrapper">
-              <img
-                src="images/youngs-favorite-img-2.png"
-                alt="Image of a girl"
-              />
+          <div class="youngs-favorite-details-wrapper">
+            <div class="youngs-favorite-details">
+              <h4>Hoodies & Sweetshirt</h4>
+              <p>Explore Now!</p>
             </div>
-
-            <div class="youngs-favorite-details-wrapper">
-              <div class="youngs-favorite-details">
-                <h4>Hoodies & Sweetshirt</h4>
-                <p>Explore Now!</p>
-              </div>
-              <div class="arrow">
-                <img src="images/Arrow 1.png" alt="An arrow" />
-              </div>
+            <div class="arrow">
+              <img src="images/Arrow 1.png" alt="An arrow" />
             </div>
           </div>
+        </div>
+
+        <div class="youngs-favorite-product">
+          <div class="youngs-favorite-image-wrapper">
+            <img src="images/youngs-favorite-img-2.png" alt="Image of a girl" />
+          </div>
+
+          <div class="youngs-favorite-details-wrapper">
+            <div class="youngs-favorite-details">
+              <h4>Hoodies & Sweetshirt</h4>
+              <p>Explore Now!</p>
+            </div>
+            <div class="arrow">
+              <img src="images/Arrow 1.png" alt="An arrow" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -266,24 +288,24 @@
 
     <section class="download-app container">
       <div class="download-app-left-part">
-          <h4 class="download-app-heading-text">
-            DOWNLOAD APP & GET THE VOUCHER!
-          </h4>
+        <h4 class="download-app-heading-text">
+          DOWNLOAD APP & GET THE VOUCHER!
+        </h4>
 
-          <p class="download-app-text">
-            Get 30% off for first transaction using Rondovision mobile app for now.
-          </p>
+        <p class="download-app-text">
+          Get 30% off for first transaction using Rondovision mobile app for
+          now.
+        </p>
 
-          <div class="download-app-buttons">
-            <img src="images/app-store-img.png" alt="" class="app-store-img">
-            <img src="images/playstore-img.png" alt="" class="playstore-img">
-          </div>
+        <div class="download-app-buttons">
+          <img src="images/app-store-img.png" alt="" class="app-store-img" />
+          <img src="images/playstore-img.png" alt="" class="playstore-img" />
+        </div>
       </div>
 
       <div class="download-app-right-part">
-        <img src="images/Mobile app.png" alt="" class="mobile-app-img">
+        <img src="images/Mobile app.png" alt="" class="mobile-app-img" />
       </div>
-
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
@@ -318,5 +340,7 @@
         window.addEventListener("resize", checkScreenSize);
       });
     </script>
+
+    <script src="hamburger-menu.js"></script>
   </body>
 </html>
