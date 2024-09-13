@@ -166,6 +166,10 @@ ul.splide__list li {
   font-size: 48px;
 }
 
+.new-arrivals-wrapper {
+  padding-right: 5rem;
+}
+
 .new-arrivals-vector-img {
   position: absolute;
   top: 23px;
@@ -522,6 +526,22 @@ ul.splide__list li {
   }
 }
 
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .new-arrivals-details p {
+    font-size: 13px;
+  }
+
+  .new-arrivals-details h4 {
+    font-size: 19px;
+  }
+
+  .arrow{
+    padding-left: 23px;
+  }
+
+
+}
+
 @media screen and (max-width: 1450px) and (min-width: 1201px) {
   /* Navbar links Stylings */
 
@@ -702,6 +722,10 @@ ul.splide__list li {
   }
 
   /* New Arrivals Stylings */
+
+  .new-arrivals-wrapper {
+    padding-right: 0;
+  }
 
   .new-arrivals-product-wrapper {
     flex-direction: column;
