@@ -6,9 +6,7 @@ body {
 }
   
 
-.splide__list img{
-  width: 70%;
-}
+
 /* Default Stylings for all elements */
 
 .container {
@@ -138,11 +136,9 @@ ul.splide__list li {
   justify-content: center;
 }
 
-/* .brands-img-wrapper img {
-  width: 100px;
-  aspect-ratio: 1/1;
-  background-color: transparent;
-} */
+.splide__list img{
+  width: 70%;
+}
 
 ul.splide__pagination {
   display: none;
