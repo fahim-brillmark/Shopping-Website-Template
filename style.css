@@ -800,6 +800,17 @@ ul.splide__list li {
     font-size: 4w;
   }
 
+  .new-arrivals-vector-img {
+    position: absolute;
+    top: 6px;
+    left: 121px;
+    z-index: 1;
+}
+
+.new-arrivals-section{
+  text-align: center;
+}
+
   /* Sale Now Stylings */
   .sale-now {
     flex-direction: column;
