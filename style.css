@@ -4,7 +4,11 @@ body {
   padding-top: 3.5rem;
   overflow-x: hidden;
 }
+  
 
+.splide__list img{
+  width: 70%;
+}
 /* Default Stylings for all elements */
 
 .container {
@@ -39,11 +43,11 @@ nav li {
 }
 
 .sign-up-btn {
-  background: #000000;
-  color: #fefefe;
-  border-radius: 7px;
-  padding: calc(0.6rem + 0.5vw) calc(0.5rem + 0.5vw);
-  font-size: 22px;
+    background: #000000;
+    color: #fefefe;
+    border-radius: 7px;
+    padding: calc(0.4rem + 0.5vw) calc(0.5rem + 1vw);
+    font-size: 22px;
 }
 
 .hamburger-menu {
@@ -134,11 +138,11 @@ ul.splide__list li {
   justify-content: center;
 }
 
-.brands-img-wrapper img {
+/* .brands-img-wrapper img {
   width: 100px;
   aspect-ratio: 1/1;
   background-color: transparent;
-}
+} */
 
 ul.splide__pagination {
   display: none;
