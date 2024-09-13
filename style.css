@@ -170,6 +170,12 @@ ul.splide__list li {
   padding-right: 5rem;
 }
 
+.new-arrivals-product{
+  width: 100%;
+}
+
+
+
 .new-arrivals-vector-img {
   position: absolute;
   top: 23px;
@@ -386,6 +392,30 @@ ul.splide__list li {
   }
 }
 
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .new-arrivals-details{
+    height: 4rem;
+  }
+
+  .new-arrivals-details p {
+    font-size: 13px;
+  }
+
+  .new-arrivals-details h4 {
+    font-size: 15px;
+  }
+
+  .arrow{
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1049px) and (min-width: 901px) {
+    .new-arrivals-details{
+    height: 4rem;
+  }
+}
+
 @media screen and (max-width: 950px) and (min-width: 768px) {
   .hero-heading-text {
     font-size: 50px;
@@ -430,6 +460,12 @@ ul.splide__list li {
   }
 }
 
+@media screen and (max-width: 1377px) and (min-width: 1301px) {
+    .new-arrivals-details{
+    height: 4rem;
+  }
+}
+
 @media screen and (min-width: 1300px) {
   .sale-now .left-part-wrapper {
     position: relative;
@@ -456,6 +492,12 @@ ul.splide__list li {
     padding: 11px 17px;
     font-size: 24px;
   }
+}
+
+@media screen and (max-width: 1383px) and (min-width: 1330px) {
+.arrow{
+  padding-left: 1rem;
+}
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1301px) {
@@ -526,7 +568,9 @@ ul.splide__list li {
   }
 }
 
-@media screen and (max-width: 1300px) and (min-width: 768px) {
+/* Here */
+
+@media screen and (max-width: 1300px) and (min-width: 901px) {
   .new-arrivals-details p {
     font-size: 13px;
   }
@@ -723,9 +767,7 @@ ul.splide__list li {
 
   /* New Arrivals Stylings */
 
-  .new-arrivals-wrapper {
-    padding-right: 0;
-  }
+
 
   .new-arrivals-product-wrapper {
     flex-direction: column;
@@ -743,6 +785,20 @@ ul.splide__list li {
     left: 28px;
     z-index: 1;
   }
+
+  .new-arrivals-details h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 9vw;
+}
+
+.new-arrivals-details p {
+    margin: 0;
+    padding: 0;
+    color: #7f7f7f;
+    font-size: 7vw;
+}
 
   /* Sale Now Stylings */
   .sale-now {
