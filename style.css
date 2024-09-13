@@ -2,10 +2,14 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding-top: 3.5rem;
+  overflow: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
   overflow-x: hidden;
 }
-  
-
 
 /* Default Stylings for all elements */
 
@@ -41,11 +45,11 @@ nav li {
 }
 
 .sign-up-btn {
-    background: #000000;
-    color: #fefefe;
-    border-radius: 7px;
-    padding: calc(0.4rem + 0.5vw) calc(0.5rem + 1vw);
-    font-size: 22px;
+  background: #000000;
+  color: #fefefe;
+  border-radius: 7px;
+  padding: calc(0.4rem + 0.5vw) calc(0.5rem + 1vw);
+  font-size: 22px;
 }
 
 .hamburger-menu {
@@ -70,10 +74,9 @@ nav li {
   padding: 0 165px 0 25px;
   display: inline-block;
   transform: rotate(-3deg);
-  
 }
 
-.hero-girl-img{
+.hero-girl-img {
   position: relative;
   top: 5px;
 }
@@ -84,11 +87,10 @@ nav li {
 }
 
 .skewed-orange-bg {
-  background: #EBD96B;
+  background: #ebd96b;
   padding: 0 125px 0 25px;
   display: inline-block;
   transform: rotate(-3deg);
-  
 }
 
 .skewed-orange-bg-text {
@@ -103,7 +105,6 @@ nav li {
 .hero-left-part {
   width: 100%;
   aspect-ratio: 1;
- 
 }
 
 .hero-heading-text {
@@ -136,8 +137,8 @@ ul.splide__list li {
   justify-content: center;
 }
 
-.splide__list img{
-  width: 70%;
+.splide__list img {
+  width: 50%;
 }
 
 ul.splide__pagination {
@@ -426,8 +427,7 @@ ul.splide__pagination {
 }
 
 @media screen and (min-width: 1601px) {
-
-    .hero-heading-text {
+  .hero-heading-text {
     font-size: 96px;
   }
 
@@ -440,7 +440,6 @@ ul.splide__pagination {
     padding: 27px 42px;
     font-size: 33px;
   }
-
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1001px) {
@@ -490,15 +489,13 @@ ul.splide__pagination {
 }
 
 @media screen and (max-width: 400px) and (min-width: 300px) {
-
-  .skewed-white-bg{
+  .skewed-white-bg {
     padding: 0 78px 0 25px;
   }
 
-    .skewed-orange-bg{
+  .skewed-orange-bg {
     padding: 0 75px 0 25px;
   }
-
 }
 
 /* Mobile Stylings */
