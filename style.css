@@ -5,6 +5,12 @@ body {
   overflow: hidden;
 }
 
+.youngs-favorite-product{
+  width: 100%;
+}
+.youngs-favorite-image-wrapper{
+  width: ;
+}
 html,
 body {
   max-width: 100%;
@@ -170,11 +176,9 @@ ul.splide__list li {
   padding-right: 5rem;
 }
 
-.new-arrivals-product{
+.new-arrivals-product {
   width: 100%;
 }
-
-
 
 .new-arrivals-vector-img {
   position: absolute;
@@ -334,7 +338,7 @@ ul.splide__list li {
 .youngs-favorite-product-wrapper {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  justify-content: space-between;
 }
 
 .youngs-favorite-image-wrapper img {
@@ -393,7 +397,7 @@ ul.splide__list li {
 }
 
 @media screen and (max-width: 900px) and (min-width: 768px) {
-  .new-arrivals-details{
+  .new-arrivals-details {
     height: 4rem;
   }
 
@@ -405,13 +409,13 @@ ul.splide__list li {
     font-size: 15px;
   }
 
-  .arrow{
+  .arrow {
     padding-left: 20px;
   }
 }
 
 @media screen and (max-width: 1049px) and (min-width: 901px) {
-    .new-arrivals-details{
+  .new-arrivals-details {
     height: 4rem;
   }
 }
@@ -461,7 +465,7 @@ ul.splide__list li {
 }
 
 @media screen and (max-width: 1377px) and (min-width: 1301px) {
-    .new-arrivals-details{
+  .new-arrivals-details {
     height: 4rem;
   }
 }
@@ -495,9 +499,9 @@ ul.splide__list li {
 }
 
 @media screen and (max-width: 1383px) and (min-width: 1330px) {
-.arrow{
-  padding-left: 1rem;
-}
+  .arrow {
+    padding-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1301px) {
@@ -579,11 +583,9 @@ ul.splide__list li {
     font-size: 19px;
   }
 
-  .arrow{
+  .arrow {
     padding-left: 23px;
   }
-
-
 }
 
 @media screen and (max-width: 1450px) and (min-width: 1201px) {
@@ -767,8 +769,6 @@ ul.splide__list li {
 
   /* New Arrivals Stylings */
 
-
-
   .new-arrivals-product-wrapper {
     flex-direction: column;
     align-items: center;
@@ -790,15 +790,15 @@ ul.splide__list li {
     margin: 0;
     padding: 0;
     font-weight: 500;
-    font-size: 9vw;
-}
+    font-size: 5vw;
+  }
 
-.new-arrivals-details p {
+  .new-arrivals-details p {
     margin: 0;
     padding: 0;
     color: #7f7f7f;
-    font-size: 7vw;
-}
+    font-size: 4w;
+  }
 
   /* Sale Now Stylings */
   .sale-now {
