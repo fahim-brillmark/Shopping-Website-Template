@@ -333,40 +333,11 @@
         <img src="images/Mobile app.png" alt="" class="mobile-app-img" />
       </div>
     </section>
-
+    <!-- Slider resources -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        function initializeSplide(config) {
-          var splide = new Splide(".splide", config);
-          splide.mount();
-        }
-
-        function checkScreenSize() {
-          var largeScreenConfig = {
-            perPage: 6,
-            rewind: true,
-          };
-
-          var smallScreenConfig = {
-            perPage: 2,
-            rewind: true,
-          };
-
-          if (window.matchMedia("(min-width: 768px)").matches) {
-            initializeSplide(largeScreenConfig);
-          } else if (window.matchMedia("(max-width: 767px)").matches) {
-            initializeSplide(smallScreenConfig);
-          }
-        }
-
-        checkScreenSize();
-
-        window.addEventListener("resize", checkScreenSize);
-      });
-    </script>
-
+    <!-- Slider -->
+    <script src="splide.js"></script>
+    <!-- Hamburger Menu -->
     <script src="hamburger-menu.js"></script>
   </body>
 </html>
