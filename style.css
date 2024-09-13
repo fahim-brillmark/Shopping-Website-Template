@@ -5,9 +5,10 @@ body {
   overflow: hidden;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Default Stylings for all elements */
@@ -122,6 +123,17 @@ nav li {
   font-size: 25px;
 }
 
+.pay-day-shop-now-btn {
+  background: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 7px;
+  padding: 20px 36px;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
 /* Brands slider stylings */
 
 .brands-slider-wrapper {
@@ -139,8 +151,6 @@ ul.splide__list li {
 .splide__list img {
   width: 50%;
 }
-
-
 
 /* New Arrivals Stylings */
 
@@ -199,17 +209,47 @@ ul.splide__list li {
   display: none;
   margin: 0;
   padding: 0;
-  background: #e6c744;
+  background: linear-gradient(
+    1.32deg,
+    #e0c340 0.13%,
+    #dfc23e 3.97%,
+    #e1c441 7.2%,
+    #e3c743 10.13%,
+    #e4c542 12.98%,
+    #e6c744 15.99%,
+    #e7c845 19.52%,
+    #e5c643 23.96%,
+    #e6c945 30.43%,
+    #e3c743 36.49%,
+    #e9ca48 42.49%,
+    #edce49 49.35%,
+    #f0d44c 55.42%,
+    #f4d84f 61.43%,
+    #f6da52 65.74%,
+    #f7db53 72.23%,
+    #f9dd55 77.43%,
+    #f9df56 83.84%,
+    #fae157 91.52%,
+    #f9df56 97.87%
+  );
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 10rem;
+  gap: 5rem;
   margin-top: 9rem;
+  padding-top: 4rem;
+  padding-right: 2rem;
 }
 
 .sale-white-bg {
   background: #ffffff;
-  padding: 1% 2%;
+  padding: 0 34px 0 18px;
+  display: inline-block;
+  transform: rotate(-2.5deg);
+}
+
+.sale-white-bg-text {
+  display: inline-block;
+  transform: rotate(2.5deg);
 }
 
 .sale-now-img {
@@ -360,6 +400,38 @@ ul.splide__list li {
   .shop-now-btn {
     padding: 11px 17px;
     font-size: 19px;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+  .sale-now .right-part-wrapper h2 {
+    font-size: 5vw;
+  }
+
+  .sale-now-text {
+    font-size: 2vw;
+  }
+
+  .sale-now-terms-and-conditions-wrapper {
+    font-size: 2vw;
+  }
+
+  .pay-day-shop-now-btn {
+    padding: 1.5vw 2.5vw;
+    font-size: 1.5vw;
+  }
+
+  .sale-now .left-part-wrapper {
+    position: relative;
+    top: 7px;
+    align-self: end;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .sale-now .left-part-wrapper {
+    position: relative;
+    top: 7px;
+    align-self: end;
   }
 }
 
@@ -628,7 +700,7 @@ ul.splide__list li {
 
   .splide__list img {
     width: 40%;
-}
+  }
 
   /* New Arrivals Stylings */
 
