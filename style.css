@@ -13,6 +13,11 @@ body {
 
 /* Default Stylings for all elements */
 
+input::placeholder{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
 .container {
   padding: 0 calc(2rem + 1vw);
 }
@@ -456,6 +461,67 @@ footer {
   text-decoration: underline;
 }
 
+/* Join Shopping Stylings */
+
+.subscription-section {
+  background: #e5c643;
+  padding: 7rem 1rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.subscription-container {
+  margin: 0 auto;
+}
+
+.subscription-container h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.subscription-container p {
+  font-size: 32px;
+  color: #fffcf8;
+  margin-bottom: 2rem;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 554px;
+  position: relative;
+}
+
+.subscription-form input {
+  padding: 1.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  flex: 1;
+  /* min-width: 252px; */
+}
+
+.subscription-form button {
+  padding: 0.8rem 1.7rem;
+  font-size: 25px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  position: absolute;
+  left: 404px;
+  letter-spacing: 3px;
+}
+
+.subscription-form button:hover {
+  background-color: #333;
+}
+
 /* Mobile Styles for footer */
 @media (max-width: 767px) {
   .footer-container {
@@ -590,15 +656,13 @@ footer {
 }
 
 @media screen and (max-width: 1350px) and (min-width: 768px) {
-
-  .footer-container{
+  .footer-container {
     gap: 6rem;
   }
 
-  .footer-links{
+  .footer-links {
     gap: 4rem;
   }
-
 
   .footer-brand h2 {
     font-size: 19px;
@@ -616,7 +680,7 @@ footer {
 
   .social-link img {
     width: 70%;
-}
+  }
 }
 
 @media screen and (max-width: 1377px) and (min-width: 1301px) {
@@ -1063,6 +1127,46 @@ footer {
     color: #7c7c7c;
     text-align: center;
     margin-bottom: 9vw;
+  }
+}
+
+/* Mobile Styles for Join Shopping*/
+@media (max-width: 767px) {
+  .subscription-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .subscription-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .subscription-form button {
+    position: static;
+  }
+
+  .subscription-form input {
+    width: calc(100% - 16px);
+    padding: 16px 8px;
+  }
+
+  .subscription-form input,
+  .subscription-form button {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .subscription-form button {
+    width: 100%;
+    padding: 16px 8px;
+  }
+
+  .subscription-container p {
+    font-size: 4.8vw;
+  }
+
+  .subscription-container h1 {
+    font-size: 8vw;
   }
 }
 
