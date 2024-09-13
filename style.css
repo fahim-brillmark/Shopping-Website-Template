@@ -898,15 +898,15 @@ ul.splide__list li {
   }
 
   .download-app-heading-text {
-    font-size: 22px;
+    font-size: 6vw;
     text-align: center;
   }
 
   .download-app-text {
-    font-size: 16px;
+    font-size: 4vw;
     color: #7c7c7c;
     text-align: center;
-    margin-bottom: 36px;
+    margin-bottom: 9vw;
   }
 }
 
