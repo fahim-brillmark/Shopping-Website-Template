@@ -206,7 +206,6 @@ ul.splide__list li {
 /* Sale Now Stylings */
 
 .sale-now {
-  display: none;
   margin: 0;
   padding: 0;
   background: linear-gradient(
@@ -725,14 +724,32 @@ ul.splide__list li {
   .sale-now {
     flex-direction: column;
     gap: 6rem;
-    display: none;
+    padding-right: 0;
   }
 
   .sale-now .right-part-wrapper h2 {
-    font-size: 60px;
+    font-size: 16vw;
+    text-align: center;
   }
-  .sale-now .right-part-wrapper {
-    padding: 0 1rem;
+  .sale-now-text {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .sale-now-terms-and-conditions-wrapper {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .shop-now-btn-wrapper {
+    text-align: center;
+    margin-top: 7px;
+    padding-bottom: 3rem;
+  }
+
+  .pay-day-shop-now-btn {
+    padding: 3vw 6vw;
+    font-size: 3vw;
   }
 
   /* Youngs Favorite Styling */
