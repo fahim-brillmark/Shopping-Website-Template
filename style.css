@@ -5,12 +5,6 @@ body {
   overflow: hidden;
 }
 
-.youngs-favorite-product{
-  width: 100%;
-}
-.youngs-favorite-image-wrapper{
-  width: ;
-}
 html,
 body {
   max-width: 100%;
@@ -335,6 +329,11 @@ ul.splide__list li {
   justify-content: space-between;
 }
 
+.youngs-favorite-product {
+  width: 100%;
+  padding: 1vw;
+}
+
 .youngs-favorite-product-wrapper {
   display: flex;
   align-items: center;
@@ -348,15 +347,15 @@ ul.splide__list li {
 .youngs-favorite-details h4 {
   margin: 0;
   padding: 0;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 1.9vw;
 }
 
 .youngs-favorite-details p {
   margin: 0;
   padding: 0;
   color: #7f7f7f;
-  font-size: 21px;
+  font-size: 1.4vw;
 }
 
 /* Download Apps Section Stylings */
@@ -797,7 +796,7 @@ ul.splide__list li {
     margin: 0;
     padding: 0;
     color: #7f7f7f;
-    font-size: 4w;
+    font-size: 4vw;
   }
 
   .new-arrivals-vector-img {
@@ -805,11 +804,11 @@ ul.splide__list li {
     top: 6px;
     left: 121px;
     z-index: 1;
-}
+  }
 
-.new-arrivals-section{
-  text-align: center;
-}
+  .new-arrivals-section {
+    text-align: center;
+  }
 
   /* Sale Now Stylings */
   .sale-now {
@@ -858,6 +857,28 @@ ul.splide__list li {
   .youngs-favorite-vector-img {
     top: 4px;
     left: 50px;
+  }
+
+  .youngs-favorite-details h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 5vw;
+  }
+
+  .youngs-favorite-details p {
+    margin: 0;
+    padding: 0;
+    color: #7f7f7f;
+    font-size: 4vw;
+  }
+  .youngs-favorite-vector-img {
+    top: 6px;
+    left: 141px;
+  }
+
+  .youngs-favorite-section{
+    text-align: center;
   }
 
   /* Download App Sections */
