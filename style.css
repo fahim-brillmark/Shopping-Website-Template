@@ -626,6 +626,12 @@ ul.splide__pagination {
     font-size: 18px;
   }
 
+  /* Brands Slider Stylings */
+
+  .splide__list img {
+    width: 40%;
+}
+
   /* New Arrivals Stylings */
 
   .new-arrivals-product-wrapper {
