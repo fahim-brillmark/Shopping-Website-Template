@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     perMove: 1,
     pagination: false,
     rewind: true,
+    autoplay:true,
+    interval:1100,
     breakpoints: {
       768: {
         perPage: 2,
