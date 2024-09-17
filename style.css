@@ -13,7 +13,7 @@ body {
 
 /* Default Stylings for all elements */
 
-input::placeholder{
+input::placeholder {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
@@ -1035,6 +1035,7 @@ footer {
     flex-direction: column;
     gap: 6rem;
     padding-right: 0;
+    margin-top: 5rem;
   }
 
   .sale-now .right-part-wrapper h2 {
@@ -1063,6 +1064,10 @@ footer {
   }
 
   /* Youngs Favorite Styling */
+
+  .youngs-favorite {
+    margin-top: 4rem;
+  }
 
   .youngs-favorite-product-wrapper {
     flex-direction: column;
